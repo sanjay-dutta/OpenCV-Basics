@@ -10,7 +10,7 @@ from matplotlib import pyplot as plt
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True,
-	help="D:\Github_Desktop\Computer-vision-practice\Loading and Displaying Images\opencv-load-image\opencv-load-image\sad64.jpg")
+	help="path to input image")
 args = vars(ap.parse_args())
 
 # load the image from disk via "cv2.imread" and then grab the spatial
