@@ -13,7 +13,7 @@ args = vars(ap.parse_args())
 
 # load the input image and display it to our screen
 image = cv2.imread(args["image"])
-cv2.imshow("original", image)
+cv2.imshow("Original", image)
 
 # cropping an image with OpenCV is accomplished via simple NumPy
 # array slices in startY:endY, startX:endX order -- here we are
