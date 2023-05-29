@@ -1,4 +1,4 @@
-#OpenCV Morphological Operations
+OpenCV Morphological Operations
 
 The article focuses on explaining morphological operations in OpenCV, a popular library for computer vision tasks. Morphological operations are image processing techniques that manipulate the shape and structure of objects within an image. They are often used for tasks such as noise removal, image enhancement, and object segmentation.
 
