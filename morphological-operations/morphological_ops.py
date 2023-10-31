@@ -7,8 +7,7 @@ import cv2
 
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-i", "--image", required=True,
-	help="path to input image")
+ap.add_argument("-i", "--image", required=True, help="path to input image")
 args = vars(ap.parse_args())
 
 # load the image, convert it to grayscale, and display it to our
@@ -27,6 +26,7 @@ for i in range(0, 3):
 cv2.destroyAllWindows()
 cv2.imshow("Original", image)
 
+"""
 # apply a series of dilations
 for i in range(0, 3):
 	dilated = cv2.dilate(gray.copy(), None, iterations=i + 1)
@@ -76,3 +76,4 @@ for kernelSize in kernelSizes:
 	cv2.imshow("Gradient: ({}, {})".format(
 		kernelSize[0], kernelSize[1]), gradient)
 	cv2.waitKey(0)
+	"""
