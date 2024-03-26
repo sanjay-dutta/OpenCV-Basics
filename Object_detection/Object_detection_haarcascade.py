@@ -6,7 +6,7 @@ import cv2
 # Example: haarcascade_frontalcatface.xml, haarcascade_car.xml, haarcascade_fullbody.xml
 # You may need to download these XML files if they are not included in your OpenCV installation
 #cat_cascade = cv2.CascadeClassifier('path/to/haarcascade_frontalcatface.xml')
-car_cascade = cv2.CascadeClassifier('D:\Github_Desktop\Computer-vision-practice\Object_detection\cars.xml')
+car_cascade = cv2.CascadeClassifier('D:\Github_Desktop\Computer-vision-practice\Object_detection\haarcascade_car.xml')
 #pedestrian_cascade = cv2.CascadeClassifier('path/to/haarcascade_fullbody.xml')
 
 # Function to detect objects
